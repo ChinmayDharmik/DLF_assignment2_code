@@ -118,4 +118,6 @@ class DenseNet(nn.Module):
 def densenet121():
     return DenseNet(Bottleneck, [6,12,24,16], growth_rate=32)
 
+if (__name__) == '__main__':
+    print(densenet121())
 
