@@ -1,0 +1,1248 @@
+Files already downloaded and verified
+DenseNet(
+  (conv1): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  (features): Sequential(
+    (dense_block_layer_0): Sequential(
+      (bottle_neck_layer_0): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(64, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_1): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(96, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_2): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_3): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(160, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_4): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(192, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_5): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(224, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(224, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+    )
+    (transition_layer_0): Transition(
+      (down_sample): Sequential(
+        (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+      )
+    )
+    (dense_block_layer_1): Sequential(
+      (bottle_neck_layer_0): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_1): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(160, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_2): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(192, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_3): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(224, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(224, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_4): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_5): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(288, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_6): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(320, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_7): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(352, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_8): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(384, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_9): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(416, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(416, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_10): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(448, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(448, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_11): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(480, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+    )
+    (transition_layer_1): Transition(
+      (down_sample): Sequential(
+        (0): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+      )
+    )
+    (dense_block_layer_2): Sequential(
+      (bottle_neck_layer_0): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_1): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(288, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(288, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_2): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(320, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(320, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_3): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(352, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_4): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(384, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(384, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_5): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(416, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(416, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_6): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(448, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(448, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_7): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(480, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(480, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_8): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_9): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(544, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(544, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_10): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(576, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_11): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(608, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(608, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_12): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(640, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_13): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(672, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(672, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_14): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(704, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(704, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_15): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(736, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(736, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_16): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(768, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_17): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(800, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(800, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_18): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(832, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(832, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_19): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(864, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(864, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_20): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(896, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(896, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_21): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(928, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(928, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_22): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(960, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_23): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(992, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(992, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+    )
+    (transition_layer_2): Transition(
+      (down_sample): Sequential(
+        (0): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+      )
+    )
+    (dense_block3): Sequential(
+      (bottle_neck_layer_0): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_1): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(544, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(544, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_2): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(576, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(576, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_3): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(608, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(608, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_4): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(640, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(640, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_5): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(672, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(672, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_6): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(704, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(704, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_7): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(736, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(736, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_8): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(768, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(768, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_9): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(800, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(800, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_10): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(832, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(832, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_11): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(864, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(864, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_12): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(896, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(896, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_13): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(928, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(928, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_14): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(960, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(960, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+      (bottle_neck_layer_15): Bottleneck(
+        (bottle_neck): Sequential(
+          (0): BatchNorm2d(992, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (1): ReLU(inplace=True)
+          (2): Conv2d(992, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (4): ReLU(inplace=True)
+          (5): Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        )
+      )
+    )
+    (bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace=True)
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (linear): Linear(in_features=1024, out_features=100, bias=True)
+)
+iteration: 1	total 625 iterations
+iteration: 2	total 625 iterations
+iteration: 3	total 625 iterations
+iteration: 4	total 625 iterations
+iteration: 5	total 625 iterations
+iteration: 6	total 625 iterations
+iteration: 7	total 625 iterations
+iteration: 8	total 625 iterations
+iteration: 9	total 625 iterations
+iteration: 10	total 625 iterations
+iteration: 11	total 625 iterations
+iteration: 12	total 625 iterations
+iteration: 13	total 625 iterations
+iteration: 14	total 625 iterations
+iteration: 15	total 625 iterations
+iteration: 16	total 625 iterations
+iteration: 17	total 625 iterations
+iteration: 18	total 625 iterations
+iteration: 19	total 625 iterations
+iteration: 20	total 625 iterations
+iteration: 21	total 625 iterations
+iteration: 22	total 625 iterations
+iteration: 23	total 625 iterations
+iteration: 24	total 625 iterations
+iteration: 25	total 625 iterations
+iteration: 26	total 625 iterations
+iteration: 27	total 625 iterations
+iteration: 28	total 625 iterations
+iteration: 29	total 625 iterations
+iteration: 30	total 625 iterations
+iteration: 31	total 625 iterations
+iteration: 32	total 625 iterations
+iteration: 33	total 625 iterations
+iteration: 34	total 625 iterations
+iteration: 35	total 625 iterations
+iteration: 36	total 625 iterations
+iteration: 37	total 625 iterations
+iteration: 38	total 625 iterations
+iteration: 39	total 625 iterations
+iteration: 40	total 625 iterations
+iteration: 41	total 625 iterations
+iteration: 42	total 625 iterations
+iteration: 43	total 625 iterations
+iteration: 44	total 625 iterations
+iteration: 45	total 625 iterations
+iteration: 46	total 625 iterations
+iteration: 47	total 625 iterations
+iteration: 48	total 625 iterations
+iteration: 49	total 625 iterations
+iteration: 50	total 625 iterations
+iteration: 51	total 625 iterations
+iteration: 52	total 625 iterations
+iteration: 53	total 625 iterations
+iteration: 54	total 625 iterations
+iteration: 55	total 625 iterations
+iteration: 56	total 625 iterations
+iteration: 57	total 625 iterations
+iteration: 58	total 625 iterations
+iteration: 59	total 625 iterations
+iteration: 60	total 625 iterations
+iteration: 61	total 625 iterations
+iteration: 62	total 625 iterations
+iteration: 63	total 625 iterations
+iteration: 64	total 625 iterations
+iteration: 65	total 625 iterations
+iteration: 66	total 625 iterations
+iteration: 67	total 625 iterations
+iteration: 68	total 625 iterations
+iteration: 69	total 625 iterations
+iteration: 70	total 625 iterations
+iteration: 71	total 625 iterations
+iteration: 72	total 625 iterations
+iteration: 73	total 625 iterations
+iteration: 74	total 625 iterations
+iteration: 75	total 625 iterations
+iteration: 76	total 625 iterations
+iteration: 77	total 625 iterations
+iteration: 78	total 625 iterations
+iteration: 79	total 625 iterations
+iteration: 80	total 625 iterations
+iteration: 81	total 625 iterations
+iteration: 82	total 625 iterations
+iteration: 83	total 625 iterations
+iteration: 84	total 625 iterations
+iteration: 85	total 625 iterations
+iteration: 86	total 625 iterations
+iteration: 87	total 625 iterations
+iteration: 88	total 625 iterations
+iteration: 89	total 625 iterations
+iteration: 90	total 625 iterations
+iteration: 91	total 625 iterations
+iteration: 92	total 625 iterations
+iteration: 93	total 625 iterations
+iteration: 94	total 625 iterations
+iteration: 95	total 625 iterations
+iteration: 96	total 625 iterations
+iteration: 97	total 625 iterations
+iteration: 98	total 625 iterations
+iteration: 99	total 625 iterations
+iteration: 100	total 625 iterations
+iteration: 101	total 625 iterations
+iteration: 102	total 625 iterations
+iteration: 103	total 625 iterations
+iteration: 104	total 625 iterations
+iteration: 105	total 625 iterations
+iteration: 106	total 625 iterations
+iteration: 107	total 625 iterations
+iteration: 108	total 625 iterations
+iteration: 109	total 625 iterations
+iteration: 110	total 625 iterations
+iteration: 111	total 625 iterations
+iteration: 112	total 625 iterations
+iteration: 113	total 625 iterations
+iteration: 114	total 625 iterations
+iteration: 115	total 625 iterations
+iteration: 116	total 625 iterations
+iteration: 117	total 625 iterations
+iteration: 118	total 625 iterations
+iteration: 119	total 625 iterations
+iteration: 120	total 625 iterations
+iteration: 121	total 625 iterations
+iteration: 122	total 625 iterations
+iteration: 123	total 625 iterations
+iteration: 124	total 625 iterations
+iteration: 125	total 625 iterations
+iteration: 126	total 625 iterations
+iteration: 127	total 625 iterations
+iteration: 128	total 625 iterations
+iteration: 129	total 625 iterations
+iteration: 130	total 625 iterations
+iteration: 131	total 625 iterations
+iteration: 132	total 625 iterations
+iteration: 133	total 625 iterations
+iteration: 134	total 625 iterations
+iteration: 135	total 625 iterations
+iteration: 136	total 625 iterations
+iteration: 137	total 625 iterations
+iteration: 138	total 625 iterations
+iteration: 139	total 625 iterations
+iteration: 140	total 625 iterations
+iteration: 141	total 625 iterations
+iteration: 142	total 625 iterations
+iteration: 143	total 625 iterations
+iteration: 144	total 625 iterations
+iteration: 145	total 625 iterations
+iteration: 146	total 625 iterations
+iteration: 147	total 625 iterations
+iteration: 148	total 625 iterations
+iteration: 149	total 625 iterations
+iteration: 150	total 625 iterations
+iteration: 151	total 625 iterations
+iteration: 152	total 625 iterations
+iteration: 153	total 625 iterations
+iteration: 154	total 625 iterations
+iteration: 155	total 625 iterations
+iteration: 156	total 625 iterations
+iteration: 157	total 625 iterations
+iteration: 158	total 625 iterations
+iteration: 159	total 625 iterations
+iteration: 160	total 625 iterations
+iteration: 161	total 625 iterations
+iteration: 162	total 625 iterations
+iteration: 163	total 625 iterations
+iteration: 164	total 625 iterations
+iteration: 165	total 625 iterations
+iteration: 166	total 625 iterations
+iteration: 167	total 625 iterations
+iteration: 168	total 625 iterations
+iteration: 169	total 625 iterations
+iteration: 170	total 625 iterations
+iteration: 171	total 625 iterations
+iteration: 172	total 625 iterations
+iteration: 173	total 625 iterations
+iteration: 174	total 625 iterations
+iteration: 175	total 625 iterations
+iteration: 176	total 625 iterations
+iteration: 177	total 625 iterations
+iteration: 178	total 625 iterations
+iteration: 179	total 625 iterations
+iteration: 180	total 625 iterations
+iteration: 181	total 625 iterations
+iteration: 182	total 625 iterations
+iteration: 183	total 625 iterations
+iteration: 184	total 625 iterations
+iteration: 185	total 625 iterations
+iteration: 186	total 625 iterations
+iteration: 187	total 625 iterations
+iteration: 188	total 625 iterations
+iteration: 189	total 625 iterations
+iteration: 190	total 625 iterations
+iteration: 191	total 625 iterations
+iteration: 192	total 625 iterations
+iteration: 193	total 625 iterations
+iteration: 194	total 625 iterations
+iteration: 195	total 625 iterations
+iteration: 196	total 625 iterations
+iteration: 197	total 625 iterations
+iteration: 198	total 625 iterations
+iteration: 199	total 625 iterations
+iteration: 200	total 625 iterations
+iteration: 201	total 625 iterations
+iteration: 202	total 625 iterations
+iteration: 203	total 625 iterations
+iteration: 204	total 625 iterations
+iteration: 205	total 625 iterations
+iteration: 206	total 625 iterations
+iteration: 207	total 625 iterations
+iteration: 208	total 625 iterations
+iteration: 209	total 625 iterations
+iteration: 210	total 625 iterations
+iteration: 211	total 625 iterations
+iteration: 212	total 625 iterations
+iteration: 213	total 625 iterations
+iteration: 214	total 625 iterations
+iteration: 215	total 625 iterations
+iteration: 216	total 625 iterations
+iteration: 217	total 625 iterations
+iteration: 218	total 625 iterations
+iteration: 219	total 625 iterations
+iteration: 220	total 625 iterations
+iteration: 221	total 625 iterations
+iteration: 222	total 625 iterations
+iteration: 223	total 625 iterations
+iteration: 224	total 625 iterations
+iteration: 225	total 625 iterations
+iteration: 226	total 625 iterations
+iteration: 227	total 625 iterations
+iteration: 228	total 625 iterations
+iteration: 229	total 625 iterations
+iteration: 230	total 625 iterations
+iteration: 231	total 625 iterations
+iteration: 232	total 625 iterations
+iteration: 233	total 625 iterations
+iteration: 234	total 625 iterations
+iteration: 235	total 625 iterations
+iteration: 236	total 625 iterations
+iteration: 237	total 625 iterations
+iteration: 238	total 625 iterations
+iteration: 239	total 625 iterations
+iteration: 240	total 625 iterations
+iteration: 241	total 625 iterations
+iteration: 242	total 625 iterations
+iteration: 243	total 625 iterations
+iteration: 244	total 625 iterations
+iteration: 245	total 625 iterations
+iteration: 246	total 625 iterations
+iteration: 247	total 625 iterations
+iteration: 248	total 625 iterations
+iteration: 249	total 625 iterations
+iteration: 250	total 625 iterations
+iteration: 251	total 625 iterations
+iteration: 252	total 625 iterations
+iteration: 253	total 625 iterations
+iteration: 254	total 625 iterations
+iteration: 255	total 625 iterations
+iteration: 256	total 625 iterations
+iteration: 257	total 625 iterations
+iteration: 258	total 625 iterations
+iteration: 259	total 625 iterations
+iteration: 260	total 625 iterations
+iteration: 261	total 625 iterations
+iteration: 262	total 625 iterations
+iteration: 263	total 625 iterations
+iteration: 264	total 625 iterations
+iteration: 265	total 625 iterations
+iteration: 266	total 625 iterations
+iteration: 267	total 625 iterations
+iteration: 268	total 625 iterations
+iteration: 269	total 625 iterations
+iteration: 270	total 625 iterations
+iteration: 271	total 625 iterations
+iteration: 272	total 625 iterations
+iteration: 273	total 625 iterations
+iteration: 274	total 625 iterations
+iteration: 275	total 625 iterations
+iteration: 276	total 625 iterations
+iteration: 277	total 625 iterations
+iteration: 278	total 625 iterations
+iteration: 279	total 625 iterations
+iteration: 280	total 625 iterations
+iteration: 281	total 625 iterations
+iteration: 282	total 625 iterations
+iteration: 283	total 625 iterations
+iteration: 284	total 625 iterations
+iteration: 285	total 625 iterations
+iteration: 286	total 625 iterations
+iteration: 287	total 625 iterations
+iteration: 288	total 625 iterations
+iteration: 289	total 625 iterations
+iteration: 290	total 625 iterations
+iteration: 291	total 625 iterations
+iteration: 292	total 625 iterations
+iteration: 293	total 625 iterations
+iteration: 294	total 625 iterations
+iteration: 295	total 625 iterations
+iteration: 296	total 625 iterations
+iteration: 297	total 625 iterations
+iteration: 298	total 625 iterations
+iteration: 299	total 625 iterations
+iteration: 300	total 625 iterations
+iteration: 301	total 625 iterations
+iteration: 302	total 625 iterations
+iteration: 303	total 625 iterations
+iteration: 304	total 625 iterations
+iteration: 305	total 625 iterations
+iteration: 306	total 625 iterations
+iteration: 307	total 625 iterations
+iteration: 308	total 625 iterations
+iteration: 309	total 625 iterations
+iteration: 310	total 625 iterations
+iteration: 311	total 625 iterations
+iteration: 312	total 625 iterations
+iteration: 313	total 625 iterations
+iteration: 314	total 625 iterations
+iteration: 315	total 625 iterations
+iteration: 316	total 625 iterations
+iteration: 317	total 625 iterations
+iteration: 318	total 625 iterations
+iteration: 319	total 625 iterations
+iteration: 320	total 625 iterations
+iteration: 321	total 625 iterations
+iteration: 322	total 625 iterations
+iteration: 323	total 625 iterations
+iteration: 324	total 625 iterations
+iteration: 325	total 625 iterations
+iteration: 326	total 625 iterations
+iteration: 327	total 625 iterations
+iteration: 328	total 625 iterations
+iteration: 329	total 625 iterations
+iteration: 330	total 625 iterations
+iteration: 331	total 625 iterations
+iteration: 332	total 625 iterations
+iteration: 333	total 625 iterations
+iteration: 334	total 625 iterations
+iteration: 335	total 625 iterations
+iteration: 336	total 625 iterations
+iteration: 337	total 625 iterations
+iteration: 338	total 625 iterations
+iteration: 339	total 625 iterations
+iteration: 340	total 625 iterations
+iteration: 341	total 625 iterations
+iteration: 342	total 625 iterations
+iteration: 343	total 625 iterations
+iteration: 344	total 625 iterations
+iteration: 345	total 625 iterations
+iteration: 346	total 625 iterations
+iteration: 347	total 625 iterations
+iteration: 348	total 625 iterations
+iteration: 349	total 625 iterations
+iteration: 350	total 625 iterations
+iteration: 351	total 625 iterations
+iteration: 352	total 625 iterations
+iteration: 353	total 625 iterations
+iteration: 354	total 625 iterations
+iteration: 355	total 625 iterations
+iteration: 356	total 625 iterations
+iteration: 357	total 625 iterations
+iteration: 358	total 625 iterations
+iteration: 359	total 625 iterations
+iteration: 360	total 625 iterations
+iteration: 361	total 625 iterations
+iteration: 362	total 625 iterations
+iteration: 363	total 625 iterations
+iteration: 364	total 625 iterations
+iteration: 365	total 625 iterations
+iteration: 366	total 625 iterations
+iteration: 367	total 625 iterations
+iteration: 368	total 625 iterations
+iteration: 369	total 625 iterations
+iteration: 370	total 625 iterations
+iteration: 371	total 625 iterations
+iteration: 372	total 625 iterations
+iteration: 373	total 625 iterations
+iteration: 374	total 625 iterations
+iteration: 375	total 625 iterations
+iteration: 376	total 625 iterations
+iteration: 377	total 625 iterations
+iteration: 378	total 625 iterations
+iteration: 379	total 625 iterations
+iteration: 380	total 625 iterations
+iteration: 381	total 625 iterations
+iteration: 382	total 625 iterations
+iteration: 383	total 625 iterations
+iteration: 384	total 625 iterations
+iteration: 385	total 625 iterations
+iteration: 386	total 625 iterations
+iteration: 387	total 625 iterations
+iteration: 388	total 625 iterations
+iteration: 389	total 625 iterations
+iteration: 390	total 625 iterations
+iteration: 391	total 625 iterations
+iteration: 392	total 625 iterations
+iteration: 393	total 625 iterations
+iteration: 394	total 625 iterations
+iteration: 395	total 625 iterations
+iteration: 396	total 625 iterations
+iteration: 397	total 625 iterations
+iteration: 398	total 625 iterations
+iteration: 399	total 625 iterations
+iteration: 400	total 625 iterations
+iteration: 401	total 625 iterations
+iteration: 402	total 625 iterations
+iteration: 403	total 625 iterations
+iteration: 404	total 625 iterations
+iteration: 405	total 625 iterations
+iteration: 406	total 625 iterations
+iteration: 407	total 625 iterations
+iteration: 408	total 625 iterations
+iteration: 409	total 625 iterations
+iteration: 410	total 625 iterations
+iteration: 411	total 625 iterations
+iteration: 412	total 625 iterations
+iteration: 413	total 625 iterations
+iteration: 414	total 625 iterations
+iteration: 415	total 625 iterations
+iteration: 416	total 625 iterations
+iteration: 417	total 625 iterations
+iteration: 418	total 625 iterations
+iteration: 419	total 625 iterations
+iteration: 420	total 625 iterations
+iteration: 421	total 625 iterations
+iteration: 422	total 625 iterations
+iteration: 423	total 625 iterations
+iteration: 424	total 625 iterations
+iteration: 425	total 625 iterations
+iteration: 426	total 625 iterations
+iteration: 427	total 625 iterations
+iteration: 428	total 625 iterations
+iteration: 429	total 625 iterations
+iteration: 430	total 625 iterations
+iteration: 431	total 625 iterations
+iteration: 432	total 625 iterations
+iteration: 433	total 625 iterations
+iteration: 434	total 625 iterations
+iteration: 435	total 625 iterations
+iteration: 436	total 625 iterations
+iteration: 437	total 625 iterations
+iteration: 438	total 625 iterations
+iteration: 439	total 625 iterations
+iteration: 440	total 625 iterations
+iteration: 441	total 625 iterations
+iteration: 442	total 625 iterations
+iteration: 443	total 625 iterations
+iteration: 444	total 625 iterations
+iteration: 445	total 625 iterations
+iteration: 446	total 625 iterations
+iteration: 447	total 625 iterations
+iteration: 448	total 625 iterations
+iteration: 449	total 625 iterations
+iteration: 450	total 625 iterations
+iteration: 451	total 625 iterations
+iteration: 452	total 625 iterations
+iteration: 453	total 625 iterations
+iteration: 454	total 625 iterations
+iteration: 455	total 625 iterations
+iteration: 456	total 625 iterations
+iteration: 457	total 625 iterations
+iteration: 458	total 625 iterations
+iteration: 459	total 625 iterations
+iteration: 460	total 625 iterations
+iteration: 461	total 625 iterations
+iteration: 462	total 625 iterations
+iteration: 463	total 625 iterations
+iteration: 464	total 625 iterations
+iteration: 465	total 625 iterations
+iteration: 466	total 625 iterations
+iteration: 467	total 625 iterations
+iteration: 468	total 625 iterations
+iteration: 469	total 625 iterations
+iteration: 470	total 625 iterations
+iteration: 471	total 625 iterations
+iteration: 472	total 625 iterations
+iteration: 473	total 625 iterations
+iteration: 474	total 625 iterations
+iteration: 475	total 625 iterations
+iteration: 476	total 625 iterations
+iteration: 477	total 625 iterations
+iteration: 478	total 625 iterations
+iteration: 479	total 625 iterations
+iteration: 480	total 625 iterations
+iteration: 481	total 625 iterations
+iteration: 482	total 625 iterations
+iteration: 483	total 625 iterations
+iteration: 484	total 625 iterations
+iteration: 485	total 625 iterations
+iteration: 486	total 625 iterations
+iteration: 487	total 625 iterations
+iteration: 488	total 625 iterations
+iteration: 489	total 625 iterations
+iteration: 490	total 625 iterations
+iteration: 491	total 625 iterations
+iteration: 492	total 625 iterations
+iteration: 493	total 625 iterations
+iteration: 494	total 625 iterations
+iteration: 495	total 625 iterations
+iteration: 496	total 625 iterations
+iteration: 497	total 625 iterations
+iteration: 498	total 625 iterations
+iteration: 499	total 625 iterations
+iteration: 500	total 625 iterations
+iteration: 501	total 625 iterations
+iteration: 502	total 625 iterations
+iteration: 503	total 625 iterations
+iteration: 504	total 625 iterations
+iteration: 505	total 625 iterations
+iteration: 506	total 625 iterations
+iteration: 507	total 625 iterations
+iteration: 508	total 625 iterations
+iteration: 509	total 625 iterations
+iteration: 510	total 625 iterations
+iteration: 511	total 625 iterations
+iteration: 512	total 625 iterations
+iteration: 513	total 625 iterations
+iteration: 514	total 625 iterations
+iteration: 515	total 625 iterations
+iteration: 516	total 625 iterations
+iteration: 517	total 625 iterations
+iteration: 518	total 625 iterations
+iteration: 519	total 625 iterations
+iteration: 520	total 625 iterations
+iteration: 521	total 625 iterations
+iteration: 522	total 625 iterations
+iteration: 523	total 625 iterations
+iteration: 524	total 625 iterations
+iteration: 525	total 625 iterations
+iteration: 526	total 625 iterations
+iteration: 527	total 625 iterations
+iteration: 528	total 625 iterations
+iteration: 529	total 625 iterations
+iteration: 530	total 625 iterations
+iteration: 531	total 625 iterations
+iteration: 532	total 625 iterations
+iteration: 533	total 625 iterations
+iteration: 534	total 625 iterations
+iteration: 535	total 625 iterations
+iteration: 536	total 625 iterations
+iteration: 537	total 625 iterations
+iteration: 538	total 625 iterations
+iteration: 539	total 625 iterations
+iteration: 540	total 625 iterations
+iteration: 541	total 625 iterations
+iteration: 542	total 625 iterations
+iteration: 543	total 625 iterations
+iteration: 544	total 625 iterations
+iteration: 545	total 625 iterations
+iteration: 546	total 625 iterations
+iteration: 547	total 625 iterations
+iteration: 548	total 625 iterations
+iteration: 549	total 625 iterations
+iteration: 550	total 625 iterations
+iteration: 551	total 625 iterations
+iteration: 552	total 625 iterations
+iteration: 553	total 625 iterations
+iteration: 554	total 625 iterations
+iteration: 555	total 625 iterations
+iteration: 556	total 625 iterations
+iteration: 557	total 625 iterations
+iteration: 558	total 625 iterations
+iteration: 559	total 625 iterations
+iteration: 560	total 625 iterations
+iteration: 561	total 625 iterations
+iteration: 562	total 625 iterations
+iteration: 563	total 625 iterations
+iteration: 564	total 625 iterations
+iteration: 565	total 625 iterations
+iteration: 566	total 625 iterations
+iteration: 567	total 625 iterations
+iteration: 568	total 625 iterations
+iteration: 569	total 625 iterations
+iteration: 570	total 625 iterations
+iteration: 571	total 625 iterations
+iteration: 572	total 625 iterations
+iteration: 573	total 625 iterations
+iteration: 574	total 625 iterations
+iteration: 575	total 625 iterations
+iteration: 576	total 625 iterations
+iteration: 577	total 625 iterations
+iteration: 578	total 625 iterations
+iteration: 579	total 625 iterations
+iteration: 580	total 625 iterations
+iteration: 581	total 625 iterations
+iteration: 582	total 625 iterations
+iteration: 583	total 625 iterations
+iteration: 584	total 625 iterations
+iteration: 585	total 625 iterations
+iteration: 586	total 625 iterations
+iteration: 587	total 625 iterations
+iteration: 588	total 625 iterations
+iteration: 589	total 625 iterations
+iteration: 590	total 625 iterations
+iteration: 591	total 625 iterations
+iteration: 592	total 625 iterations
+iteration: 593	total 625 iterations
+iteration: 594	total 625 iterations
+iteration: 595	total 625 iterations
+iteration: 596	total 625 iterations
+iteration: 597	total 625 iterations
+iteration: 598	total 625 iterations
+iteration: 599	total 625 iterations
+iteration: 600	total 625 iterations
+iteration: 601	total 625 iterations
+iteration: 602	total 625 iterations
+iteration: 603	total 625 iterations
+iteration: 604	total 625 iterations
+iteration: 605	total 625 iterations
+iteration: 606	total 625 iterations
+iteration: 607	total 625 iterations
+iteration: 608	total 625 iterations
+iteration: 609	total 625 iterations
+iteration: 610	total 625 iterations
+iteration: 611	total 625 iterations
+iteration: 612	total 625 iterations
+iteration: 613	total 625 iterations
+iteration: 614	total 625 iterations
+iteration: 615	total 625 iterations
+iteration: 616	total 625 iterations
+iteration: 617	total 625 iterations
+iteration: 618	total 625 iterations
+iteration: 619	total 625 iterations
+iteration: 620	total 625 iterations
+iteration: 621	total 625 iterations
+iteration: 622	total 625 iterations
+iteration: 623	total 625 iterations
+iteration: 624	total 625 iterations
+iteration: 625	total 625 iterations
+
+Top 1 err:  tensor(0.2900)
+Top 5 err:  tensor(0.0796)
+Parameter numbers: 7048548

@@ -1,0 +1,171 @@
+Files already downloaded and verified
+Files already downloaded and verified
+epoch 1 training time consumed: 40.71s
+Evaluating Network.....
+Test set: Epoch: 1, Average loss: 0.0296, Accuracy: 0.1156, Time consumed:2.58s
+
+epoch 2 training time consumed: 40.64s
+Evaluating Network.....
+Test set: Epoch: 2, Average loss: 0.0236, Accuracy: 0.2517, Time consumed:2.55s
+
+epoch 3 training time consumed: 40.71s
+Evaluating Network.....
+Test set: Epoch: 3, Average loss: 0.0199, Accuracy: 0.3370, Time consumed:2.57s
+
+epoch 4 training time consumed: 40.83s
+Evaluating Network.....
+Test set: Epoch: 4, Average loss: 0.0172, Accuracy: 0.4151, Time consumed:2.53s
+
+epoch 5 training time consumed: 40.80s
+Evaluating Network.....
+Test set: Epoch: 5, Average loss: 0.0162, Accuracy: 0.4561, Time consumed:2.60s
+
+epoch 6 training time consumed: 41.46s
+Evaluating Network.....
+Test set: Epoch: 6, Average loss: 0.0150, Accuracy: 0.4864, Time consumed:2.55s
+
+epoch 7 training time consumed: 42.94s
+Evaluating Network.....
+Test set: Epoch: 7, Average loss: 0.0134, Accuracy: 0.5382, Time consumed:2.56s
+
+epoch 8 training time consumed: 41.20s
+Evaluating Network.....
+Test set: Epoch: 8, Average loss: 0.0134, Accuracy: 0.5372, Time consumed:2.56s
+
+epoch 9 training time consumed: 40.55s
+Evaluating Network.....
+Test set: Epoch: 9, Average loss: 0.0125, Accuracy: 0.5561, Time consumed:2.53s
+
+epoch 10 training time consumed: 40.54s
+Evaluating Network.....
+Test set: Epoch: 10, Average loss: 0.0096, Accuracy: 0.6498, Time consumed:2.54s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-10-regular.pth
+epoch 11 training time consumed: 41.08s
+Evaluating Network.....
+Test set: Epoch: 11, Average loss: 0.0094, Accuracy: 0.6600, Time consumed:2.59s
+
+epoch 12 training time consumed: 43.57s
+Evaluating Network.....
+Test set: Epoch: 12, Average loss: 0.0093, Accuracy: 0.6584, Time consumed:2.74s
+
+epoch 13 training time consumed: 42.14s
+Evaluating Network.....
+Test set: Epoch: 13, Average loss: 0.0092, Accuracy: 0.6663, Time consumed:2.87s
+
+epoch 14 training time consumed: 44.26s
+Evaluating Network.....
+Test set: Epoch: 14, Average loss: 0.0091, Accuracy: 0.6670, Time consumed:2.62s
+
+epoch 15 training time consumed: 42.60s
+Evaluating Network.....
+Test set: Epoch: 15, Average loss: 0.0091, Accuracy: 0.6720, Time consumed:2.46s
+
+epoch 16 training time consumed: 42.93s
+Evaluating Network.....
+Test set: Epoch: 16, Average loss: 0.0091, Accuracy: 0.6739, Time consumed:2.81s
+
+epoch 17 training time consumed: 44.51s
+Evaluating Network.....
+Test set: Epoch: 17, Average loss: 0.0091, Accuracy: 0.6742, Time consumed:2.72s
+
+epoch 18 training time consumed: 41.83s
+Evaluating Network.....
+Test set: Epoch: 18, Average loss: 0.0090, Accuracy: 0.6751, Time consumed:2.42s
+
+epoch 19 training time consumed: 39.26s
+Evaluating Network.....
+Test set: Epoch: 19, Average loss: 0.0093, Accuracy: 0.6732, Time consumed:2.45s
+
+epoch 20 training time consumed: 39.07s
+Evaluating Network.....
+Test set: Epoch: 20, Average loss: 0.0085, Accuracy: 0.6945, Time consumed:2.45s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-20-regular.pth
+epoch 21 training time consumed: 43.88s
+Evaluating Network.....
+Test set: Epoch: 21, Average loss: 0.0084, Accuracy: 0.6962, Time consumed:2.73s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-21-best.pth
+epoch 22 training time consumed: 43.77s
+Evaluating Network.....
+Test set: Epoch: 22, Average loss: 0.0084, Accuracy: 0.6954, Time consumed:2.50s
+
+epoch 23 training time consumed: 41.24s
+Evaluating Network.....
+Test set: Epoch: 23, Average loss: 0.0085, Accuracy: 0.6955, Time consumed:2.60s
+
+epoch 24 training time consumed: 39.15s
+Evaluating Network.....
+Test set: Epoch: 24, Average loss: 0.0085, Accuracy: 0.6964, Time consumed:2.54s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-24-best.pth
+epoch 25 training time consumed: 43.57s
+Evaluating Network.....
+Test set: Epoch: 25, Average loss: 0.0085, Accuracy: 0.6940, Time consumed:2.99s
+
+epoch 26 training time consumed: 42.56s
+Evaluating Network.....
+Test set: Epoch: 26, Average loss: 0.0085, Accuracy: 0.6945, Time consumed:2.65s
+
+epoch 27 training time consumed: 41.72s
+Evaluating Network.....
+Test set: Epoch: 27, Average loss: 0.0085, Accuracy: 0.6947, Time consumed:2.94s
+
+epoch 28 training time consumed: 43.02s
+Evaluating Network.....
+Test set: Epoch: 28, Average loss: 0.0085, Accuracy: 0.6961, Time consumed:2.53s
+
+epoch 29 training time consumed: 44.02s
+Evaluating Network.....
+Test set: Epoch: 29, Average loss: 0.0085, Accuracy: 0.6990, Time consumed:2.56s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-29-best.pth
+epoch 30 training time consumed: 40.60s
+Evaluating Network.....
+Test set: Epoch: 30, Average loss: 0.0084, Accuracy: 0.6973, Time consumed:2.71s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-30-regular.pth
+epoch 31 training time consumed: 43.63s
+Evaluating Network.....
+Test set: Epoch: 31, Average loss: 0.0085, Accuracy: 0.6983, Time consumed:2.66s
+
+epoch 32 training time consumed: 43.28s
+Evaluating Network.....
+Test set: Epoch: 32, Average loss: 0.0085, Accuracy: 0.6985, Time consumed:2.46s
+
+epoch 33 training time consumed: 40.59s
+Evaluating Network.....
+Test set: Epoch: 33, Average loss: 0.0085, Accuracy: 0.6992, Time consumed:2.49s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-33-best.pth
+epoch 34 training time consumed: 39.75s
+Evaluating Network.....
+Test set: Epoch: 34, Average loss: 0.0085, Accuracy: 0.6979, Time consumed:2.59s
+
+epoch 35 training time consumed: 44.40s
+Evaluating Network.....
+Test set: Epoch: 35, Average loss: 0.0084, Accuracy: 0.7021, Time consumed:2.58s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-35-best.pth
+epoch 36 training time consumed: 41.31s
+Evaluating Network.....
+Test set: Epoch: 36, Average loss: 0.0085, Accuracy: 0.6981, Time consumed:2.48s
+
+epoch 37 training time consumed: 40.20s
+Evaluating Network.....
+Test set: Epoch: 37, Average loss: 0.0085, Accuracy: 0.6998, Time consumed:2.65s
+
+epoch 38 training time consumed: 40.24s
+Evaluating Network.....
+Test set: Epoch: 38, Average loss: 0.0084, Accuracy: 0.7004, Time consumed:2.50s
+
+epoch 39 training time consumed: 39.07s
+Evaluating Network.....
+Test set: Epoch: 39, Average loss: 0.0085, Accuracy: 0.7002, Time consumed:2.89s
+
+epoch 40 training time consumed: 42.68s
+Evaluating Network.....
+Test set: Epoch: 40, Average loss: 0.0085, Accuracy: 0.6998, Time consumed:2.89s
+
+saving weights file to checkpoint/googlenet/Thursday_27_October_2022_14h_00m_49s/googlenet-40-regular.pth

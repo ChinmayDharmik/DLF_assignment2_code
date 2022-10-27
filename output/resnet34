@@ -1,0 +1,4 @@
+Network : resnet34
+Peak Accuracy : 0.6929999589920044
+Peak Accuracy Epoch: 40
+Final Learning Rate: 0.01

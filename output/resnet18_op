@@ -1,0 +1,173 @@
+Files already downloaded and verified
+Files already downloaded and verified
+epoch 1 training time consumed: 25.46s
+Evaluating Network.....
+Test set: Epoch: 1, Average loss: 0.0290, Accuracy: 0.1529, Time consumed:1.74s
+
+epoch 2 training time consumed: 25.46s
+Evaluating Network.....
+Test set: Epoch: 2, Average loss: 0.0250, Accuracy: 0.2407, Time consumed:1.75s
+
+epoch 3 training time consumed: 25.47s
+Evaluating Network.....
+Test set: Epoch: 3, Average loss: 0.0203, Accuracy: 0.3465, Time consumed:1.71s
+
+epoch 4 training time consumed: 25.48s
+Evaluating Network.....
+Test set: Epoch: 4, Average loss: 0.0190, Accuracy: 0.3909, Time consumed:1.70s
+
+epoch 5 training time consumed: 25.49s
+Evaluating Network.....
+Test set: Epoch: 5, Average loss: 0.0167, Accuracy: 0.4439, Time consumed:1.74s
+
+epoch 6 training time consumed: 25.47s
+Evaluating Network.....
+Test set: Epoch: 6, Average loss: 0.0157, Accuracy: 0.4845, Time consumed:1.72s
+
+epoch 7 training time consumed: 25.52s
+Evaluating Network.....
+Test set: Epoch: 7, Average loss: 0.0150, Accuracy: 0.4944, Time consumed:1.72s
+
+epoch 8 training time consumed: 25.52s
+Evaluating Network.....
+Test set: Epoch: 8, Average loss: 0.0137, Accuracy: 0.5362, Time consumed:1.73s
+
+epoch 9 training time consumed: 25.49s
+Evaluating Network.....
+Test set: Epoch: 9, Average loss: 0.0140, Accuracy: 0.5318, Time consumed:1.73s
+
+epoch 10 training time consumed: 25.51s
+Evaluating Network.....
+Test set: Epoch: 10, Average loss: 0.0105, Accuracy: 0.6249, Time consumed:1.73s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-10-regular.pth
+epoch 11 training time consumed: 25.52s
+Evaluating Network.....
+Test set: Epoch: 11, Average loss: 0.0102, Accuracy: 0.6325, Time consumed:1.72s
+
+epoch 12 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 12, Average loss: 0.0101, Accuracy: 0.6377, Time consumed:1.75s
+
+epoch 13 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 13, Average loss: 0.0099, Accuracy: 0.6430, Time consumed:1.75s
+
+epoch 14 training time consumed: 25.51s
+Evaluating Network.....
+Test set: Epoch: 14, Average loss: 0.0098, Accuracy: 0.6454, Time consumed:1.71s
+
+epoch 15 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 15, Average loss: 0.0097, Accuracy: 0.6545, Time consumed:1.72s
+
+epoch 16 training time consumed: 25.50s
+Evaluating Network.....
+Test set: Epoch: 16, Average loss: 0.0096, Accuracy: 0.6515, Time consumed:1.71s
+
+epoch 17 training time consumed: 25.55s
+Evaluating Network.....
+Test set: Epoch: 17, Average loss: 0.0099, Accuracy: 0.6485, Time consumed:1.75s
+
+epoch 18 training time consumed: 25.54s
+Evaluating Network.....
+Test set: Epoch: 18, Average loss: 0.0098, Accuracy: 0.6529, Time consumed:1.74s
+
+epoch 19 training time consumed: 25.54s
+Evaluating Network.....
+Test set: Epoch: 19, Average loss: 0.0094, Accuracy: 0.6673, Time consumed:1.72s
+
+epoch 20 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 20, Average loss: 0.0089, Accuracy: 0.6792, Time consumed:1.70s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-20-regular.pth
+epoch 21 training time consumed: 25.52s
+Evaluating Network.....
+Test set: Epoch: 21, Average loss: 0.0089, Accuracy: 0.6791, Time consumed:1.77s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-21-best.pth
+epoch 22 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 22, Average loss: 0.0089, Accuracy: 0.6814, Time consumed:1.71s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-22-best.pth
+epoch 23 training time consumed: 25.56s
+Evaluating Network.....
+Test set: Epoch: 23, Average loss: 0.0089, Accuracy: 0.6817, Time consumed:1.72s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-23-best.pth
+epoch 24 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 24, Average loss: 0.0089, Accuracy: 0.6816, Time consumed:1.75s
+
+epoch 25 training time consumed: 25.52s
+Evaluating Network.....
+Test set: Epoch: 25, Average loss: 0.0089, Accuracy: 0.6818, Time consumed:1.72s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-25-best.pth
+epoch 26 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 26, Average loss: 0.0089, Accuracy: 0.6810, Time consumed:1.73s
+
+epoch 27 training time consumed: 25.55s
+Evaluating Network.....
+Test set: Epoch: 27, Average loss: 0.0088, Accuracy: 0.6848, Time consumed:1.72s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-27-best.pth
+epoch 28 training time consumed: 25.60s
+Evaluating Network.....
+Test set: Epoch: 28, Average loss: 0.0089, Accuracy: 0.6866, Time consumed:1.71s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-28-best.pth
+epoch 29 training time consumed: 25.56s
+Evaluating Network.....
+Test set: Epoch: 29, Average loss: 0.0088, Accuracy: 0.6833, Time consumed:1.74s
+
+epoch 30 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 30, Average loss: 0.0088, Accuracy: 0.6869, Time consumed:1.72s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-30-best.pth
+epoch 31 training time consumed: 25.54s
+Evaluating Network.....
+Test set: Epoch: 31, Average loss: 0.0087, Accuracy: 0.6867, Time consumed:1.75s
+
+epoch 32 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 32, Average loss: 0.0088, Accuracy: 0.6866, Time consumed:1.72s
+
+epoch 33 training time consumed: 25.54s
+Evaluating Network.....
+Test set: Epoch: 33, Average loss: 0.0088, Accuracy: 0.6857, Time consumed:1.72s
+
+epoch 34 training time consumed: 25.56s
+Evaluating Network.....
+Test set: Epoch: 34, Average loss: 0.0088, Accuracy: 0.6876, Time consumed:1.75s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-34-best.pth
+epoch 35 training time consumed: 25.53s
+Evaluating Network.....
+Test set: Epoch: 35, Average loss: 0.0087, Accuracy: 0.6859, Time consumed:1.75s
+
+epoch 36 training time consumed: 25.51s
+Evaluating Network.....
+Test set: Epoch: 36, Average loss: 0.0087, Accuracy: 0.6861, Time consumed:1.71s
+
+epoch 37 training time consumed: 25.58s
+Evaluating Network.....
+Test set: Epoch: 37, Average loss: 0.0087, Accuracy: 0.6860, Time consumed:1.73s
+
+epoch 38 training time consumed: 25.55s
+Evaluating Network.....
+Test set: Epoch: 38, Average loss: 0.0088, Accuracy: 0.6852, Time consumed:1.72s
+
+epoch 39 training time consumed: 25.58s
+Evaluating Network.....
+Test set: Epoch: 39, Average loss: 0.0087, Accuracy: 0.6864, Time consumed:1.72s
+
+epoch 40 training time consumed: 25.56s
+Evaluating Network.....
+Test set: Epoch: 40, Average loss: 0.0088, Accuracy: 0.6853, Time consumed:1.74s
+
+saving weights file to checkpoint/resnet18/Thursday_27_October_2022_13h_07m_31s/resnet18-40-regular.pth

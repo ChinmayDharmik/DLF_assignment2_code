@@ -1,0 +1,4 @@
+Network : densenet121
+Peak Accuracy : 0.7102000117301941
+Peak Accuracy Epoch: 40
+Final Learning Rate: 0.01

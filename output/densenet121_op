@@ -1,0 +1,171 @@
+Files already downloaded and verified
+Files already downloaded and verified
+epoch 1 training time consumed: 92.13s
+Evaluating Network.....
+Test set: Epoch: 1, Average loss: 0.0282, Accuracy: 0.1423, Time consumed:5.63s
+
+epoch 2 training time consumed: 87.51s
+Evaluating Network.....
+Test set: Epoch: 2, Average loss: 0.0243, Accuracy: 0.2409, Time consumed:5.28s
+
+epoch 3 training time consumed: 93.42s
+Evaluating Network.....
+Test set: Epoch: 3, Average loss: 0.0200, Accuracy: 0.3485, Time consumed:5.59s
+
+epoch 4 training time consumed: 94.37s
+Evaluating Network.....
+Test set: Epoch: 4, Average loss: 0.0184, Accuracy: 0.3921, Time consumed:6.20s
+
+epoch 5 training time consumed: 92.70s
+Evaluating Network.....
+Test set: Epoch: 5, Average loss: 0.0177, Accuracy: 0.4272, Time consumed:5.34s
+
+epoch 6 training time consumed: 88.49s
+Evaluating Network.....
+Test set: Epoch: 6, Average loss: 0.0154, Accuracy: 0.4754, Time consumed:5.29s
+
+epoch 7 training time consumed: 86.76s
+Evaluating Network.....
+Test set: Epoch: 7, Average loss: 0.0139, Accuracy: 0.5226, Time consumed:5.29s
+
+epoch 8 training time consumed: 85.36s
+Evaluating Network.....
+Test set: Epoch: 8, Average loss: 0.0133, Accuracy: 0.5447, Time consumed:5.28s
+
+epoch 9 training time consumed: 89.54s
+Evaluating Network.....
+Test set: Epoch: 9, Average loss: 0.0126, Accuracy: 0.5616, Time consumed:5.98s
+
+epoch 10 training time consumed: 89.55s
+Evaluating Network.....
+Test set: Epoch: 10, Average loss: 0.0095, Accuracy: 0.6541, Time consumed:5.74s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-10-regular.pth
+epoch 11 training time consumed: 90.15s
+Evaluating Network.....
+Test set: Epoch: 11, Average loss: 0.0094, Accuracy: 0.6601, Time consumed:5.27s
+
+epoch 12 training time consumed: 91.92s
+Evaluating Network.....
+Test set: Epoch: 12, Average loss: 0.0091, Accuracy: 0.6662, Time consumed:5.31s
+
+epoch 13 training time consumed: 87.64s
+Evaluating Network.....
+Test set: Epoch: 13, Average loss: 0.0092, Accuracy: 0.6709, Time consumed:5.58s
+
+epoch 14 training time consumed: 87.06s
+Evaluating Network.....
+Test set: Epoch: 14, Average loss: 0.0092, Accuracy: 0.6683, Time consumed:5.28s
+
+epoch 15 training time consumed: 90.13s
+Evaluating Network.....
+Test set: Epoch: 15, Average loss: 0.0091, Accuracy: 0.6677, Time consumed:5.21s
+
+epoch 16 training time consumed: 84.73s
+Evaluating Network.....
+Test set: Epoch: 16, Average loss: 0.0090, Accuracy: 0.6809, Time consumed:5.22s
+
+epoch 17 training time consumed: 83.36s
+Evaluating Network.....
+Test set: Epoch: 17, Average loss: 0.0092, Accuracy: 0.6760, Time consumed:5.17s
+
+epoch 18 training time consumed: 83.30s
+Evaluating Network.....
+Test set: Epoch: 18, Average loss: 0.0090, Accuracy: 0.6794, Time consumed:5.19s
+
+epoch 19 training time consumed: 83.32s
+Evaluating Network.....
+Test set: Epoch: 19, Average loss: 0.0091, Accuracy: 0.6724, Time consumed:5.17s
+
+epoch 20 training time consumed: 83.43s
+Evaluating Network.....
+Test set: Epoch: 20, Average loss: 0.0084, Accuracy: 0.7027, Time consumed:5.19s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-20-regular.pth
+epoch 21 training time consumed: 83.37s
+Evaluating Network.....
+Test set: Epoch: 21, Average loss: 0.0083, Accuracy: 0.7044, Time consumed:5.23s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-21-best.pth
+epoch 22 training time consumed: 83.41s
+Evaluating Network.....
+Test set: Epoch: 22, Average loss: 0.0084, Accuracy: 0.7063, Time consumed:5.19s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-22-best.pth
+epoch 23 training time consumed: 83.46s
+Evaluating Network.....
+Test set: Epoch: 23, Average loss: 0.0085, Accuracy: 0.7056, Time consumed:5.18s
+
+epoch 24 training time consumed: 83.56s
+Evaluating Network.....
+Test set: Epoch: 24, Average loss: 0.0083, Accuracy: 0.7053, Time consumed:5.21s
+
+epoch 25 training time consumed: 83.76s
+Evaluating Network.....
+Test set: Epoch: 25, Average loss: 0.0084, Accuracy: 0.7054, Time consumed:5.22s
+
+epoch 26 training time consumed: 83.71s
+Evaluating Network.....
+Test set: Epoch: 26, Average loss: 0.0084, Accuracy: 0.7050, Time consumed:5.21s
+
+epoch 27 training time consumed: 83.43s
+Evaluating Network.....
+Test set: Epoch: 27, Average loss: 0.0084, Accuracy: 0.7045, Time consumed:5.19s
+
+epoch 28 training time consumed: 83.31s
+Evaluating Network.....
+Test set: Epoch: 28, Average loss: 0.0085, Accuracy: 0.7065, Time consumed:5.16s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-28-best.pth
+epoch 29 training time consumed: 83.02s
+Evaluating Network.....
+Test set: Epoch: 29, Average loss: 0.0085, Accuracy: 0.7022, Time consumed:5.16s
+
+epoch 30 training time consumed: 83.10s
+Evaluating Network.....
+Test set: Epoch: 30, Average loss: 0.0084, Accuracy: 0.7082, Time consumed:5.18s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-30-best.pth
+epoch 31 training time consumed: 83.26s
+Evaluating Network.....
+Test set: Epoch: 31, Average loss: 0.0084, Accuracy: 0.7064, Time consumed:5.18s
+
+epoch 32 training time consumed: 83.37s
+Evaluating Network.....
+Test set: Epoch: 32, Average loss: 0.0084, Accuracy: 0.7091, Time consumed:5.20s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-32-best.pth
+epoch 33 training time consumed: 83.33s
+Evaluating Network.....
+Test set: Epoch: 33, Average loss: 0.0084, Accuracy: 0.7090, Time consumed:5.18s
+
+epoch 34 training time consumed: 83.39s
+Evaluating Network.....
+Test set: Epoch: 34, Average loss: 0.0084, Accuracy: 0.7087, Time consumed:5.21s
+
+epoch 35 training time consumed: 83.50s
+Evaluating Network.....
+Test set: Epoch: 35, Average loss: 0.0084, Accuracy: 0.7102, Time consumed:5.20s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-35-best.pth
+epoch 36 training time consumed: 83.65s
+Evaluating Network.....
+Test set: Epoch: 36, Average loss: 0.0085, Accuracy: 0.7092, Time consumed:5.23s
+
+epoch 37 training time consumed: 83.81s
+Evaluating Network.....
+Test set: Epoch: 37, Average loss: 0.0085, Accuracy: 0.7074, Time consumed:5.20s
+
+epoch 38 training time consumed: 83.70s
+Evaluating Network.....
+Test set: Epoch: 38, Average loss: 0.0085, Accuracy: 0.7089, Time consumed:5.21s
+
+epoch 39 training time consumed: 83.65s
+Evaluating Network.....
+Test set: Epoch: 39, Average loss: 0.0085, Accuracy: 0.7073, Time consumed:5.21s
+
+epoch 40 training time consumed: 83.70s
+Evaluating Network.....
+Test set: Epoch: 40, Average loss: 0.0084, Accuracy: 0.7102, Time consumed:5.20s
+
+saving weights file to checkpoint/densenet121/Thursday_27_October_2022_14h_38m_22s/densenet121-40-regular.pth
