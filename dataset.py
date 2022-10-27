@@ -1,6 +1,5 @@
-""" train and test dataset
-
-author baiyu
+""" 
+train and test dataset
 """
 import os
 import sys

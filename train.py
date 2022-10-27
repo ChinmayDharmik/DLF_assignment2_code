@@ -1,6 +1,5 @@
 """ 
 train network using pytorch
-author Chinmay Dharmik
 """
 
 import os
