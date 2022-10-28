@@ -1,5 +1,5 @@
 # DLF_assignment2_code
-DLF_CNN_code
+***
 
 #### To train a model
 ```bash
@@ -22,4 +22,11 @@ To access Tensorboard
 tensorboard --logdir='runs' --port=6006 --host='localhost'
 ```
 
+Supported Models
+```
+resnet18
+resnet34
+densenet121
+squeezenet
+```
 
